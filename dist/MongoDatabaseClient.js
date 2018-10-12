@@ -26,6 +26,7 @@ class MongoDatabaseClient {
             });
         });
     }
+    // @ts-ignore
     connectIfNotConnected() {
         return tslib_1.__awaiter(this, void 0, void 0, function* () {
             if (!this._client) {
@@ -46,5 +47,5 @@ class MongoDatabaseClient {
         return this._client.db();
     }
 }
-exports.default = MongoDatabaseClient;
+exports.MongoDatabaseClient = MongoDatabaseClient;
 //# sourceMappingURL=MongoDatabaseClient.js.map

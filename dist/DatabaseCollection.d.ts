@@ -1,6 +1,6 @@
-import MongoDatabaseClient from './MongoDatabaseClient';
+import { MongoDatabaseClient } from './MongoDatabaseClient';
 import { Collection } from 'mongodb';
-export default class DatabaseCollection {
+export declare class DatabaseCollection {
     private _client;
     readonly name: string;
     constructor(name: string, client: MongoDatabaseClient);

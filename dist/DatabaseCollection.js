@@ -14,5 +14,5 @@ class DatabaseCollection {
         });
     }
 }
-exports.default = DatabaseCollection;
+exports.DatabaseCollection = DatabaseCollection;
 //# sourceMappingURL=DatabaseCollection.js.map

@@ -1,5 +1,5 @@
 import { Db, MongoClient } from 'mongodb';
-export default class MongoDatabaseClient {
+export declare class MongoDatabaseClient {
     private static _instance;
     private readonly _endpoint;
     private _client;

@@ -1,4 +1,4 @@
-import MongoDatabaseClient from './MongoDatabaseClient';
+import {MongoDatabaseClient} from './MongoDatabaseClient';
 import {Collection} from 'mongodb';
 
 

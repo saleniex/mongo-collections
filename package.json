@@ -1,0 +1,34 @@
+{
+  "name": "mongo-collections",
+  "version": "1.0.0",
+  "author": "Uldis Jansons <uj@mobilly.lv>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saleniex/mongo-collections.git"
+  },
+  "main": "dist/index.js",
+  "description": "AMQP wrapper with promises",
+  "engineStrict": true,
+  "license": "0BSD",
+  "engines": {
+    "node": ">= 8.9.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "~8.10.25",
+    "create-ts-index": "^1.0.14",
+    "ts-loader": "^3.5.0",
+    "tsutils": "~3.0.0",
+    "typescript": "~3.0.1"
+  },
+  "keywords": [
+    "nosql",
+    "database"
+  ],
+  "dependencies": {
+    "mongodb": "^3.1.8",
+    "tslib": "^1.9.3"
+  }
+}

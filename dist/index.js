@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-tslib_1.__exportStar(require("./DatabaseCollection"), exports);
-tslib_1.__exportStar(require("./MongoDatabaseClient"), exports);
+tslib_1.__exportStar(require("./lib/DatabaseCollection"), exports);
+tslib_1.__exportStar(require("./lib/MongoDatabaseClient"), exports);
 //# sourceMappingURL=index.js.map

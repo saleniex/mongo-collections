@@ -37,6 +37,7 @@
     ]
   },
   "include": [
+    "index.ts",
     "lib/**/*",
     "__tests__/**/*"
   ]
